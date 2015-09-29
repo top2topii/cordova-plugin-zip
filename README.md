@@ -29,7 +29,8 @@ file size of the zip file.
 
 ## Release Notes
 
-### 3.0.0 (May 1, 2015)
+### 3.0.0-h1 (Sep 29, 2015)
+* Updated unzip to 3.0.0-h1: for using a password while upzip function call.
 * Updated SSZipArchive (ios lib) to 0.2.1
 * Update file plugin dependency to use npm version (cordova-plugin-file)
 
