@@ -4,11 +4,11 @@ A Cordova plugin to unzip files in Android and iOS.
 
 ## Installation
 
-    cordova plugin add cordova-plugin-zip
+    cordova plugin add https://github.com/top2topii/cordova-plugin-zip
 
 ## Usage
 
-    zip.unzip(<source zip>, <destination dir>, <callback>, [<progressCallback>]);
+    zip.unzip(<source zip>, <destination dir>, <password>, <callback>, [<progressCallback>]);
 
 Both source and destination arguments can be URLs obtained from the HTML File
 interface or absolute paths to files on the device.
@@ -31,6 +31,8 @@ file size of the zip file.
 
 ### 3.0.0-h1 (Sep 29, 2015)
 * Updated unzip to 3.0.0-h1: for using a password while upzip function call.
+
+### 3.0.0 (May 1, 2015)
 * Updated SSZipArchive (ios lib) to 0.2.1
 * Update file plugin dependency to use npm version (cordova-plugin-file)
 
